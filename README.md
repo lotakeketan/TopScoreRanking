@@ -35,7 +35,7 @@ Configure database and data before running application.
 
 **4. Build and run the app using gradle**
 
-For build and run application ,execute following command in cmd:
+For build and run application ,navigate to build.gradle file path and execute following command in cmd:
 ```bash
 gradlew
 ```
@@ -59,7 +59,7 @@ The app defines following APIs.
 
 ## Testing
 
-To  application's tests, execute following command in cmd:
+To  application's tests, navigate to build.gradle file path and execute following command in cmd:
 
    gradlew test clean --info   
     
