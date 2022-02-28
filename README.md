@@ -1,12 +1,12 @@
 ## Requirements
 
-1. Java - 1.8.x
+1. Java - 1.8.x above
 
 2. gradle - 7.x.x
 
-3. Mysql - 5.x.x
+3. Mysql - 5.x.x above
 
-4. Spring - 2.2.x above
+4. Spring - 2.6.x
 
 5. Junit5
 
