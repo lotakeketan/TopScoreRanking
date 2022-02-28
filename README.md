@@ -15,7 +15,7 @@
 **1. Clone the application**
 
 ```bash
-git clone 
+git clone https://github.com/lotakeketan/TopScoreRanking.git
 ```
 
 **2. Database configuration**
