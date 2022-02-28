@@ -54,7 +54,7 @@ The app defines following APIs.
 | 4 | List of Score by playerX | Get all score list with player name|GET http://localhost:8080/api/oyo/playerList?name={player}  | {Player}=PlayerA OR Playera  | Detailed score list in JSON format |
 | 5 | Get all score after 1st November 2020| Get all score list after given date|GET http://localhost:8080/api/oyo/playerList?fromDate={date}  | {date} =2021-01-01  | Detailed score list in JSON format |
 | 6 | Get all scores by player1, player2 and player3 before 1st december 2020| Get all score list for player list before given date|GET http://localhost:8080/api/oyo/playerList?name={player}&toDate={date}  |{player}=PlayerA,{date}=2020-12-01(YYYY-MM-DD) | Detailed score list in JSON format |
-| 7 | Get all scores after 1 Jan 2020 and before 1 Jan 2021| Get top score (time and score),low score (time and score),average score,list of all the scores (time and score) |GET http://localhost:8080/api/oyo/playerHistory/{player}  | {player} =PlayerA OR Playera | Detailed in JSON format |
+| 7 | Get all scores after 1 Jan 2020 and before 1 Jan 2021| Get top score (time and score),low score (time and score),average score,list of all the scores (time and score) |GET http://localhost:8080/api/oyo/playerList?fromDate={fromdate}&toDate={todate}   | {fromdate} =2020-01-01,{todate}=2021-01-01 | Detailed in JSON format |
 
 
 ## Testing
